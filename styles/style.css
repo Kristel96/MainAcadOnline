@@ -1,0 +1,62 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #03001e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+}
+body .navigation {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .navigation .left-nav button,
+body .navigation .right-nav button {
+  font-family: 'Zen Dots', cursive;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+}
+body .navigation .left-nav button:hover,
+body .navigation .right-nav button:hover {
+  color: #03001e;
+  cursor: pointer;
+  background: linear-gradient(to right, #fdeff9, #7303c0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: 0.3s;
+}
+body .navigation .right-nav .inputSearch {
+  font-family: 'Zen Dots', cursive;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  caret-color: white;
+  color: white;
+}
+body .mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+body .mainContainer .film-wrapper {
+  margin: 15px 15%;
+  padding: 15px;
+  background: radial-gradient(97.9% 261.15% at 2.1% 5.15%, #FFF9F9 0%, rgba(255, 255, 255, 0) 100%);
+  box-sizing: border-box;
+  backdrop-filter: blur(12px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
