@@ -56,7 +56,26 @@ body .mainContainer .film-wrapper {
   background: radial-gradient(97.9% 261.15% at 2.1% 5.15%, #FFF9F9 0%, rgba(255, 255, 255, 0) 100%);
   box-sizing: border-box;
   backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 10px;
+}
+body .mainContainer .film-wrapper .leftblock .filmPoster:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+body .mainContainer .film-wrapper .leftblock .filmTitle {
+  font-family: 'Zen Dots', cursive;
+}
+body .mainContainer .film-wrapper .rightblock {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+body .mainContainer .film-wrapper .rightblock p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
