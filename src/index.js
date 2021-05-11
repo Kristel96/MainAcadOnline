@@ -1,4 +1,6 @@
-import {getMovies, searchMovie} from './dataservice.js'
+import './styles/style.css';
+import {getMovies, searchMovie} from './dataservice.js';
+
 
 let imgBaseServer = 'https://image.tmdb.org/t/p/w300/';
 window.onload = function() {
